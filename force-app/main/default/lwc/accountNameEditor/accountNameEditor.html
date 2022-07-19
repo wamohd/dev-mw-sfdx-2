@@ -1,0 +1,11 @@
+<!--
+ - Created by wamohd on 12.07.2022.
+ -->
+
+<!-- Account Name Editor -->
+<template>
+    <lightning-record-edit-form object-api-name="Account" record-id={recordId} onsubmit= {handleSubmit} onsuccess={handleSuccess}>
+        <lightning-input-field field-name="Name"></lightning-input-field>
+        <lightning-button class="slds-m-around_medium" type="submit" label="Update"></lightning-button>
+    </lightning-record-edit-form>
+</template>
